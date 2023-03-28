@@ -12,7 +12,7 @@ body {
 
 header {
     height: 200px;
-    background-image: url("../images/leavedrops.jpg");
+    background-image: url(../images/leavedrops.jpg);
     background-size: cover;
     background-attachment: fixed;
     display: block;
