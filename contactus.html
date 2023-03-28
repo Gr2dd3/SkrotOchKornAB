@@ -26,162 +26,108 @@
 
     <!-- KONTAKTFÖRMULÄR -->
     <form action="http://primat.se/services/sendform.aspx?xid=register&xmail=gradde23@gmail.com" method="post">
-        <center>
-            <div style="background-color:azure;margin:70px; padding:20px; text-align: left; width: 600px;">
-                <center>
-                    <!-- Namn -->
-                    <label for="name">Namn</label>
-                    <input style="margin-left: 15px" type="text" id="name" name="name"><br><br>
+        <div class="formdiv">
+            <!-- Namn -->
+            <label for="name">Namn:</label>
+            <input class="formnameinput" style="margin-left: 20px" type="text" id="name" name="name"><br><br>
 
-                    <!-- Adress -->
-                    <label for="adress">Adress</label>
-                    <input style="margin-left: 10px;" type="text" id="adress" name="adress"><br><br>
+            <!-- Adress -->
+            <label for="adress">Adress:</label>
+            <input style="margin-left: 13px;" type="text" id="adress" name="adress"><br><br>
 
-                    <!-- Email -->
-                    <label for="email">Email</label>
-                    <input style="margin-left: 16px;" type="text" id="email" name="email"><br><br>
+            <!-- Email -->
+            <label for="email">Email:</label>
+            <input style="margin-left: 24px;" type="text" id="email" name="email"><br><br>
 
-                    <!-- Telefonnummer -->
-                    <label for="phone">Telefon</label>
-                    <input style="margin-left: 6px;" type="text" id="phone" name="phone"><br><br><br>
+            <!-- Telefonnummer -->
+            <label for="phone">Telefon:</label>
+            <input style="margin-left: 8px;" type="text" id="phone" name="phone"><br><br><br>
 
-                    <!-- Radiobuttons för privat/företag & Storlek på företaget -->
-                    <input type="radio" name="comp" id="isprivate" value="private">
-                    <label for="private">Privatkund</label>
+            <!-- Radiobuttons för privat/företag & Storlek på företaget -->
+            <input type="radio" name="comp" id="isprivate" value="private">
+            <label for="private">Privatkund</label>
 
-                    <input type="radio" name="comp" id="iscompany" value="iscompany">
-                    <label for="iscompany">Företagskund</label><br><br>
+            <input type="radio" name="comp" id="iscompany" value="iscompany">
+            <label for="iscompany">Företagskund</label><br><br>
 
-                    <p>¤ Om företagskund, ange storlek på företaget:</p>
-                    <input type="radio" name="compsize" id="size" value="size1-100">
-                    <label for="size">1-100 anställda</label>
+            <p>¤ Om företagskund, ange storlek på företaget:</p>
+            <input type="radio" name="compsize" id="size" value="size1-100">
+            <label for="size">1-100 anställda</label>
 
-                    <input type="radio" name="compsize" id="size" value="size101-1000">
-                    <label for="size">101-1000 anställda</label>
+            <input type="radio" name="compsize" id="size" value="size101-1000">
+            <label for="size">101-1000 anställda</label>
 
-                    <input type="radio" name="compsize" id="size" value="size>1000">
-                    <label for="size">Mer än 1000 anställda</label>
+            <input type="radio" name="compsize" id="size" value="size>1000">
+            <label for="size">Mer än 1000 anställda</label>
 
-                    <!-- Fråga till företag -->
-                    <br><br><br>
-                    <label for="info">Lämna ett meddelande</label><br>
-                    <textarea id="info" rows="5" cols="40" name="message"></textarea><br>
+            <!-- Fråga till företag -->
+            <br><br><br>
+            <label for="info">Lämna ett meddelande</label><br>
+            <textarea id="info" rows="5" cols="40" name="message"></textarea><br>
 
 
-                    <!-- checkbox för nyhetsbrev -->
-                    <input type="hidden" name="newsletter" value="nej">
-                    <input type="checkbox" id="newsletter" name="newsletter" value="ja">
-                    <label for="newsletter">Vill du ha nyhetsbrev</label>
+            <!-- checkbox för nyhetsbrev -->
+            <input type="hidden" name="newsletter" value="nej">
+            <input type="checkbox" id="newsletter" name="newsletter" value="ja">
+            <label for="newsletter">Vill du ha nyhetsbrev</label>
 
-                    <!-- checkbox för kontakt via telefon -->
-                    <input type="hidden" name="newsletter" value="nej">
-                    <input type="checkbox" id="newsletter" name="newsletter" value="ja">
-                    <label for="newsletter">Kontakt via telefon</label>
+            <!-- checkbox för kontakt via telefon -->
+            <input type="hidden" name="newsletter" value="nej">
+            <input type="checkbox" id="newsletter" name="newsletter" value="ja">
+            <label for="newsletter">Kontakt via telefon</label>
 
 
-                    <br><br>
-                    <input type="submit" value="Skicka">
-                </center>
-            </div>
-        </center>
+            <br><br>
+            <input class="submitbtn" type="submit" value="Skicka">
+        </div>
     </form>
 
 
 
     <!-- Personal -->
-    <center>
-        <table style="list-style: none;">
-            <tr>
-                <td rowspan="5"><img src="images/employee1.jpeg" height="220" /></td>
-                <td>
-                    <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Klas Göran Bengtsson</h3>
-                </td>
-            </tr>
-            <tr>
-                <td style="text-align: start;">
-                    <p><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VD</i></p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="mailto:klasgoran@skrotochkorn.com">Maila Klas
-                                Göran</a></strong></p>
-                </td>
-            </tr>
-            <tr>
-                <td><br><br></td>
-            </tr>
-            <tr>
-                <td><br><br></td>
-            </tr>
-            <tr>
-                <td><br><br></td>
-            </tr>
-            <tr>
-                <td rowspan="5"><img src="images/employee2.jpeg" height="220" /></td>
-                <td>
-                    <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Erika Johansson</h3>
-                </td>
-            </tr>
-            <tr>
-                <td style="text-align: start;">
-                    <p><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Säljare</i></p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="mailto:erika@skrotochkorn.com">Maila
-                                Erika</a></strong></p>
-                </td>
-            </tr>
-            <tr>
-                <td><br><br></td>
-            </tr>
-            <tr>
-                <td><br><br></td>
-            </tr>
-            <tr>
-                <td><br><br></td>
-            </tr>
-            <tr>
-                <td rowspan="5"><img src="images/employee3.jpeg" height="220" /></td>
-                <td>
-                    <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sarah Ambrose</h3>
-                </td>
-            </tr>
-            <tr>
-                <td style="text-align: start;">
-                    <p><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Säljare</i></p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="mailto:Sarah@skrotochkorn.com">Maila
-                                Sarah</a></strong></p>
-                </td>
-            </tr>
-            <tr>
-                <td><br><br></td>
-            </tr>
-            <tr>
-                <td><br><br></td>
-            </tr>
-            <tr>
-                <td><br><br></td>
-            </tr>
-        </table>
-    </center>
+    <table class="personaltable" border="1">
+        <tr>
+            <td>
+                <img class="img1" src="/images/employee1.jpeg">
+            </td>
+            <th>
+                <h3>Klas Göran Bengtsson</h3>
+            </th>
+            <td>
+                <p>VD</p>
+                <p><a class="mail" href="mailto:klasgoran@skrotochkorn.com">Maila Klas Göran</a></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img class="img1" src="/images/employee2.jpeg">
+            </td>
+            <th>
+                <h3>Erika Johansson</h3>
+            </th>
+            <td>
+                <p>Säljare</p>
+                <p><a class="mail" href="mailto:erika@skrotochkorn.com">Maila Erika</a></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img class="img1" src="/images/employee3.jpeg">
+            </td>
+            <th>
+                <h3>Sarah Ambrose</h3>
+            </th>
+            <td>
+                <p>Säljare</p>
+                <p><a class="mail" href="mailto:sarah@skrotochkorn.com">Maila Sarah</a></p>
+            </td>
+        </tr>
+    </table>
 
     <br><br><br><br>
-    <iframe src="contactinfo.html" width="300" height="130" style="border: none; background-color: azure;"></iframe>
+    <br><br><br><br>
+    <iframe class="mycontactinfoframe" src="/contactinfo.html"></iframe>
     <br><br>
-    <ul align="center">
-        <tr>
-            <td><a href="index.html">Startsida</a></td>
-            <td><a href="products.html">Produkter</a></td>
-            <td><a href="contactus.html">Kontakta oss</a></td>
-        </tr>
-    </ul>
 </body>
 
 </html>
