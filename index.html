@@ -5,37 +5,41 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      background-image: url('images/sky.jpeg');
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-    }
-  </style>
+
+  <link rel="stylesheet" href="CSS/style.css">
   <title>Skrot och Korn AB</title>
 </head>
 
 <body>
-  <center><img src="images/local.jpeg" height="500" width="1200" /></center>
-  <h1 align="center" style="color: burlywood;">Skrot & Korn AB</h3>
-    <br><br>
-    <h3 align="center">Vi erbjuder
-  </h1>
-  <p align="center">Tjänster och <a href=products.html>produkter</a> för privatpersoner och företag.</p>
-  <h3 align="center">Om Oss</h3>
-  <p align="center">Välkommen att kontakta oss <a href="contactus.html">här.</a></p>
+  <header>
+    <h1>Skrot & Korn AB</h1>
+    <nav class="navigation">
+        <ul>
+            <tr>
+                <li><a class="firstnava" href="index.html">Startsida</a></li>
+                <li><a href="products.html">Produkter</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="contactus.html">Kontakta oss</a></li>
+            </tr>
+        </ul>
+    </nav>
+</header>
+
+  <img class="myofficeimage" src="/images/local.jpeg">
+
+  <br><br>
+  <div>
+    <h3>Vi erbjuder</h3>
+    <p>Tjänster och <a href=products.html>produkter</a> för privatpersoner och företag.</p>
+    <h3>Om Oss</h3>
+    <p>Välkommen att <a href="contactus.html">kontakta oss här</a>.</p>
+  </div>
+
 
   <br><br><br><br>
-  <iframe src="contactinfo.html" width="300" height="130" style="border: none; background-color: azure;"></iframe>
+  <iframe class="mycontactinfoframe" src="/contactinfo.html"></iframe>
   <br><br>
-  <ul align="center">
-    <tr>
-      <td><a href="index.html">Startsida</a></td>
-      <td><a href="products.html">Produkter</a></td>
-      <td><a href="contactus.html">Kontakta oss</a></td>
-    </tr>
-  </ul>
+
 
 </body>
 
