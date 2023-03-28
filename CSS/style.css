@@ -230,3 +230,7 @@ h1 {
 .mail:hover {
     color:rgba(255,228,196, 0.5);
 }
+
+.contactusbody {
+    background-image: url(../images/browncloth.jpg);
+}
