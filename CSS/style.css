@@ -208,6 +208,20 @@ h1 {
         display: block;
 }
 
+.img2 {
+    width: 248px;
+    height: 180px;
+    border-radius: 7%;
+    display: block;
+}
+
+.img3 {
+    width: 248px;
+    height: 180px;
+    border-radius: 7%;
+    display: block;
+}
+
 .mail {
     text-decoration: none;
     color: darkgreen;
