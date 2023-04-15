@@ -66,6 +66,8 @@ h1 {
     box-sizing: border-box;
 }
 
+
+
 .officediv {
     background-attachment: fixed;
     margin-top: 3vh;
@@ -155,6 +157,10 @@ h1 {
 
 }
 
+.customerbasket {
+    text-align: center;
+}
+
 .producttable tr, th, td {
     border-style: none;
 }
@@ -181,12 +187,13 @@ h1 {
 
 .formdiv {
     background-color:rgba(131, 85, 85, 0.7);
-    margin-top: 3vh; 
+    margin-top: 20vh; 
     margin-left: 10vw;
     padding:20px; 
     text-align: left; 
     width: 600px;
     border-radius: 7%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .submitbtn {
@@ -198,15 +205,16 @@ h1 {
 .personaltable {
     table-layout: fixed;
     color:rgb(75, 40, 40);
-    border-width: 5px;
     margin-top:3vh;
     margin-left: 10vw;
     width: 800px;
     padding: 1em;
     background-color:rgba(131, 85, 85, 0.5);
+    border-width: 5px;
     border-radius: 7%;
     border-color: darkgreen;
     text-align: center;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .img1 {
@@ -241,4 +249,23 @@ h1 {
 
 .contactusbody {
     background-image: url(../images/browncloth.jpg);
+}
+
+.personaldiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    position: relative;
+    width: 15em;
+    margin: 2vw;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(131, 85, 85, 0.5);
+    border: 3px solid black;
+    padding: 5px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 7%;
 }

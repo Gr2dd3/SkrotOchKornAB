@@ -14,13 +14,7 @@
     <header>
         <h1>Produkter</h1>
         <nav class="navigation">
-            <ul>
-                <tr>
-                    <li><a class="firstnava" href="index.html">Startsida</a></li>
-                    <li><a href="products.html">Produkter</a></li>
-                    <li><a href="media.html">Media</a></li>
-                    <li><a href="contactus.html">Kontakta oss</a></li>
-                </tr>
+            <ul id="meny">
             </ul>
         </nav>
     </header>
@@ -31,48 +25,60 @@
             <th colspan="2">
                 <h2>Grävmaskin</h2>
             </th>
-            </tr>
-            <tr>
+        </tr>
+        <tr>
             <td>
-                <img class="excavator1" src="./images/excavator.jpeg"
-            </td>
+                <img class="excavator1" src="./images/excavator.jpeg" </td>
             <td>
-                <p>Pris inkl.moms <strong>1 700 000 SEK</strong></p>
+                <p>Pris inkl.moms <strong><span id="item1">1 700 000</span> SEK</strong></p>
                 <p>Pris utan moms: 1 360 000 SEK</p>
                 <p>Hästkrafter: <strong>952</strong></p>
                 <p>Lastvikt: <strong>1,5 ton</strong></p>
+                <br><label for="add">Lägg i kundkorg</label>
+                <input type="checkbox" id="add1" onchange="change()">
             </td>
         </tr>
         <tr>
             <th colspan="2">
                 <h2><br><br>Lyftkran</h2>
             </th>
-            </tr>
-            <tr>
+        </tr>
+        <tr>
             <td>
-                <img class="crane1" src="./images/crane.jpeg"
-            </td>
+                <img class="crane1" src="./images/crane.jpeg" </td>
             <td>
-                <p>Pris inkl.moms <strong>22 900 000 SEK</strong></p>
+                <p>Pris inkl.moms <strong><span id="item2">22 900 000</span> SEK</strong></p>
                 <p>Pris utan moms: 18 320 000 SEK</p>
                 <p>Hästkrafter: <strong>700</strong></p>
                 <p>Lastvikt: <strong>90 ton</strong></p>
+                <br><label for="add">Lägg i kundkorg</label>
+                <input type="checkbox" id="add2" onchange="change()">
             </td>
         </tr>
         <tr>
             <th colspan="2">
                 <h2><br><br>Lastbil, äldre</h2>
             </th>
-            </tr>
-            <tr>
+        </tr>
+        <tr>
             <td>
-                <img class="truck1" src="./images/truck.jpeg"
-            </td>
+                <img class="truck1" src="./images/truck.jpeg" </td>
             <td>
-                <p>Pris inkl.moms <strong style="color: darkred;">400 000 SEK</strong></p>
+                <p>Pris inkl.moms <strong style="color: darkred;"><span id="item3">400 000</span> SEK</strong></p>
                 <p>Pris utan moms: 320 000 SEK</p>
                 <p>Hästkrafter: <strong>700</strong></p>
                 <p>Lastvikt: <strong>8 ton</strong></p>
+                <br><label for="add">Lägg i kundkorg</label>
+                <input type="checkbox" id="add3" onchange="change()">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <br><br><br>
+                <div class="customerbasket">
+                    <h2>Kundkorg</h2>
+                    <h3><span id="totalpriset"></span></h3>
+                </div>
             </td>
         </tr>
     </table>
@@ -83,6 +89,8 @@
     <br><br><br><br>
     <iframe class="mycontactinfoframe" src="contactinfo.html"></iframe>
     <br><br>
+
+    <script src="script/skrotscript.js"></script>
 </body>
 
 </html>
